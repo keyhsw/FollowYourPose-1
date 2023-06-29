@@ -170,22 +170,22 @@ with gr.Blocks(css='style.css') as demo:
                                            step=0.1,
                                            value=12.0)
     with gr.Row():
-        from example import style_example
-        examples = style_example
+        # from example import style_example
+        # examples = style_example
         
-        gr.Examples(examples=examples,
-                    inputs = [
-                        user_input_video,
-                        target_prompt,
-                        num_steps,
-                        guidance_scale,
-                        video_type,
-                        *ImageSequenceDataset_list
-                    ],
-                    outputs=result,
-                    fn=pipe.run,
-                    cache_examples=True,
-                    )
+        # gr.Examples(examples=examples,
+        #             inputs = [
+        #                 user_input_video,
+        #                 target_prompt,
+        #                 num_steps,
+        #                 guidance_scale,
+        #                 video_type,
+        #                 *ImageSequenceDataset_list
+        #             ],
+        #             outputs=result,
+        #             fn=pipe.run,
+        #             cache_examples=True,
+        #             )
     inputs = [
             user_input_video,
             target_prompt,
