@@ -12,6 +12,7 @@ import sys
 sys.path.append('FollowYourPose')
 
 
+
 # result = subprocess.run(['bash', './data/download.sh'], stdout=subprocess.PIPE)
 import subprocess
 zip_file = './example_video.zip'
