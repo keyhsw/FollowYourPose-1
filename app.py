@@ -169,7 +169,7 @@ with gr.Blocks(css='style.css') as demo:
                                            maximum=50,
                                            step=0.1,
                                            value=12.0)
-    with gr.Row():
+    # with gr.Row():
         # from example import style_example
         # examples = style_example
         
